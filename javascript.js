@@ -10,6 +10,7 @@ function generateChart() {
                         backgroundColor: "hsl(10,79%,65%)",
                         borderRadius: 5,
                         hoverBackgroundColor: "hsl(186, 34%, 60%)",
+                        
                     }
                 ]
 
