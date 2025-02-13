@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="balance">
+    <div class="balance_container">
+      <div class="header">
+        <div class="solde">
+          <p class="balance-title">My balance</p>
+          <h2 class="monye-balance"> $921.48</h2>
+        </div>
+        <div class="logo">
+          <img src="/images/logo.svg" alt="">
+        </div>
+      </div>
+      <div class="app_body">
+        <h3>Spending - Last 7 days</h3>
+        <canvas id="my_chart"></canvas>
+        <div class="divid"></div>
+        <div class="total">
+          <div class="this_month">
+            <p>Total this month</p>
+            <h2>$478.33</h2>
+          </div>
+          <div class="last_month">
+            <p><b>+2.4%</b></p>
+            <p>from last month</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="javascript.js"></script>
+</body>
+
+</html>
